@@ -39,6 +39,7 @@ def hit?(n)
   until get_user_input == "s" || get_user_input == "h"
     invalid_command
     prompt_user
+    get_user_input
   end
   if get_user_input == "s"
     n
