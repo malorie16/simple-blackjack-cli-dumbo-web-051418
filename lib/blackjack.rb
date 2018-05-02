@@ -41,11 +41,12 @@ def hit?(n)
     break
   elsif get_user_input == "h"
     deal_card++
-  
+
     invalid_command
       prompt_user
+end
+end
 
-  end
 
 end
 
