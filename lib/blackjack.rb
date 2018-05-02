@@ -40,7 +40,7 @@ def hit?(n)
 
   elsif get_user_input == "h"
     deal_card++
-  else 
+   
    invalid_command
      prompt_user
   end
