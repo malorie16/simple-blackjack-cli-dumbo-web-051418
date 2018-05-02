@@ -36,15 +36,17 @@ def initial_round
 def hit?(n)
   prompt_user
   get_user_input
-  loop do
-  if get_user_input == "s"
-    break
-  elsif get_user_input == "h"
-    deal_card += 1
-   get_user_input == !"s" && !"h"
+  until get_user_input == "s" || get_user_input == "h"
     invalid_command
-      prompt_user
-end
+    prompt_user
+  end
+  if get_user_input == "s"
+    !deal_card
+  elsif get_user_input == "h"
+    deal_card
+    sum = deal_card += initial_round
+  end
+  sum
 end
 
 
