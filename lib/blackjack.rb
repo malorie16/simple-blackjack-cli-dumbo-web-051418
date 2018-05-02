@@ -38,14 +38,17 @@ def hit?(initial_round)
   get_user_input
   if gets.chomp == "s"
     !deal_card
-  else deal_card
+  elsif gets.chomp == "h"
+    deal_card
     initial_round++
+  else invalid_command
+    prompt_user
   end
 end
 
 
 def invalid_command
-  # code invalid_command here
+puts "Please enter a valid command."
 end
 
 #####################################################
