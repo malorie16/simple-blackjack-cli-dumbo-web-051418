@@ -32,7 +32,6 @@ def initial_round
   sum
   end
 end
-end
 
 def hit?
   # code hit? here
