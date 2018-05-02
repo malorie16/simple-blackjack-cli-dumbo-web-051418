@@ -28,6 +28,7 @@ def initial_round
   end
   display_card_total
   sum = n + n
+  puts sum
   sum
   end
 end
