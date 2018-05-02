@@ -27,7 +27,8 @@ def initial_round
     deal_card
   end
   display_card_total
-  puts n + n
+  sum = n + n
+  sum
   end
 end
 
