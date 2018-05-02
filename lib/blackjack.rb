@@ -28,7 +28,6 @@ def initial_round
   return sum
   end
 
-
 def hit?(n)
   prompt_user
   input = get_user_input
