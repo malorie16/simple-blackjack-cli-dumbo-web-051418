@@ -41,9 +41,9 @@ def hit?(initial_round)
   elsif gets.chomp == "h"
     deal_card
     initial_round++
-  
 
-  end
+
+  
 end
 
 
