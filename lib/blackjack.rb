@@ -28,8 +28,7 @@ def initial_round
   end
   display_card_total(deal_card)
   sum = deal_card + deal_card
-  print sum
-  sum
+  return sum
   end
 
 
