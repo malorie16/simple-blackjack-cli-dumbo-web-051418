@@ -36,9 +36,9 @@ def initial_round
 def hit?(initial_round)
   prompt_user
   get_user_input
-  if gets.chomp == "s"
+  if get_user_input == "s"
     !deal_card
-  elsif gets.chomp == "h"
+  elsif get_user_input == "h"
     deal_card
     initial_round++
    invalid_command
