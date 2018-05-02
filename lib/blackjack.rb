@@ -33,9 +33,16 @@ def initial_round
   end
 
 
-def hit?
-  # code hit? here
+def hit?(initial_round)
+  prompt_user
+  get_user_input
+  if gets.chomp == "s"
+    !deal_card
+  else deal_card
+    initial_round++
+  end
 end
+
 
 def invalid_command
   # code invalid_command here
