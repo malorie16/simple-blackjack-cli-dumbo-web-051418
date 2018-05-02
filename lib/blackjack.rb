@@ -58,5 +58,10 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome
+  initial_round
+  hit?
+  if n <= 21
+  end_game
+end
 end
