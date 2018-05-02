@@ -44,7 +44,7 @@ def hit?(n)
     !deal_card
   elsif get_user_input == "h"
     deal_card
-    sum = deal_card += initial_round
+    n += deal_card 
 
 
 end
