@@ -41,10 +41,10 @@ def hit?(n)
     prompt_user
   end
   if get_user_input == "s"
-    !deal_card
+    n
   elsif get_user_input == "h"
     deal_card
-    n += deal_card 
+    n += deal_card
 
 
 end
