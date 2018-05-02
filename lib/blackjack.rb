@@ -6,7 +6,7 @@ def deal_card
   rand(1..11)
 end
 
-def display_card_total(n)
+def display_card_total(total)
   puts "Your cards add up to #{n}"
 end
 
@@ -33,7 +33,7 @@ def initial_round
   end
 
 
-def hit?(n)
+def hit?(total)
   prompt_user
   input = get_user_input
   until input == "s" || input == "h"
@@ -42,9 +42,9 @@ def hit?(n)
     input = get_user_input
   end
   if input == "h"
-    n += deal_card
+    total += deal_card
   elsif input == "s"
-    n
+    total
 end
 end
 
