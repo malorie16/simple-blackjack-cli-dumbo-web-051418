@@ -42,7 +42,7 @@ def hit?(initial_round)
     deal_card
     initial_round++
 end
-
+end
 
 
 
