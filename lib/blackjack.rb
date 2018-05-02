@@ -43,8 +43,8 @@ def hit?(initial_round)
     initial_round++
 
 
-  
-end
+
+
 
 
 def invalid_command
