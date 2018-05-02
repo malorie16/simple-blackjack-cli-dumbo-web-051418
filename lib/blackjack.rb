@@ -36,11 +36,14 @@ def initial_round
 def hit?(n)
   prompt_user
   get_user_input
+  loop do
   if get_user_input == "s"
-
+    break
   elsif get_user_input == "h"
     deal_card++
-
+  else
+    invalid_command
+      prompt_user
 
   end
 
