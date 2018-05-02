@@ -33,14 +33,14 @@ def initial_round
   end
 
 
-def hit?(initial_round)
+def hit?(n)
   prompt_user
   get_user_input
   if get_user_input == "s"
     !deal_card
   elsif get_user_input == "h"
     deal_card
-    initial_round++
+    n++
    invalid_command
      prompt_user
   end
