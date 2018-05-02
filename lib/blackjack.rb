@@ -43,13 +43,8 @@ def hit?(n)
   if get_user_input == "s"
     n
   elsif get_user_input == "h"
-    deal_card
     n += deal_card
-
-
 end
-sum
-
 end
 
 
